@@ -10,7 +10,7 @@ require 'includes/page_header.php'; ?>
        
     </section>
     
-<section class="teasers">
+<section class="teasers container">
     
     <div class="large">
         <a href="#">
@@ -37,11 +37,23 @@ require 'includes/page_header.php'; ?>
             <h3>Möt oss på båtmässan</h3>
             <span>27/4-2018</span>
         </header>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus, urna lobortis eleifend dapibus, dui libero pulvinar ligula, sit amet ultrices ipsum ipsum vitae sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus, urna lobortis eleifend dapibus, dui libero pulvinar ligula..</p>
     </article>
    
 </section>
 
-<section class=""
+<a href="#" class="big-link">Se alla båtar från hydrolift</a>
+
+<section class="about container">
+    <img src="images/Hydrolift-C-28-IMG_6988-02.jpg" alt="båt, hamn, hydrolift, verkstad">
+    <article class="">
+        <section>
+            <h2>Vad vi gör</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut augue gravida, blandit justo sed, sollicitudin quam. Sed sit amet est vitae diam ultricies interdum. Donec justo nisl, malesuada sed ante ac, interdum posuere erat. Praesent quis metus et nunc egestas sodales ut et lectus.</p>
+            <p>Nulla scelerisque pellentesque est, ac fermentum sapien pellentesquxe et. Maecenas sit amet gravida nisl. In efficitur lorem quis metus hendrerit tempor. Nunc dictum ligulat mauris, a venenatis elit aliquam ut.</p>
+        </section>
+    </article>
+</section>
+
 
 <?php require 'includes/page_footer.php' ?>

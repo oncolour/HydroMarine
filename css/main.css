@@ -1,17 +1,103 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /** Global - Mobile first**/
 
 body {
     margin: 0;
     padding:0;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color:#373737;
+   
 }
 
 a {
     text-decoration: none;
 }
 
+a.big-link {
+    padding:50px;
+    display: block;
+    background-color: #0c1422;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #e9464d;
+}
+
+span {
+  
+}
+
 span.strong {
     font-weight: 800;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 2.4rem;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 1rem 0 0.6rem;
+}
+
+p {
+    margin: 0 0 1.2rem;
+    line-height: 1.7;
+    font-size: 16px;
 }
 
 img {
@@ -36,9 +122,8 @@ img {
 .header-bar {
     background-color: #0c1422;
     color: #fff;
-    height: 50px;
-    width: calc(100vw - 100px);
-    padding:0 50px;
+    height: 50px; 
+    padding:0 75px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -46,8 +131,9 @@ img {
     align-items: center;
 }
 
-.header-bar .logotype {
-   
+.header-bar .logotype img {
+   width: 250px;
+    margin-top: 8px;
 }
 
 .header-bar .menu-list li {
@@ -57,15 +143,15 @@ img {
 .header-bar .menu-list li a {
    color: #fff;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
-.header-bar .menu-list li a:hover {
+/*.header-bar .menu-list li a:hover {
    border-bottom: 3px solid #e9464d;
-}
+}*/
 
 /** Front page hero **/
 .front-page-hero {
-   
     background-image: url(../images/hero_wave.png);
     background-size: cover;
     background-position: center center;
@@ -74,16 +160,20 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    
     height: calc(100vh - 50px);
 }
 
 /** Teasers **/
 
-.teasers {
+.container {
     max-width: 1400px;
     padding:0 50px;
-    margin: 70px 0 100px;
+    margin: 70px auto 100px;
+    
+}
+
+.teasers {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -100,15 +190,52 @@ img {
 .teasers .small {
     flex-basis: 48%;
     height:100%;
-    background-color: red;
     margin-bottom: 40px;
 /*    margin-right: 46px;*/
+    border-bottom: 4px solid #e9464d;
+}
+
+.teasers .small h3 {
+    display: inline-block;
+}
+.teasers .small span {
+    color: #989898;
+    font-size: 14px;
+}
+
+.teasers .small span::before {
+    content:" - ";
+    padding:0 5px;
 }
 
 .teasers .small .img-bg {
         background-size: cover;
         background-position: center center;
     min-height: 150px;
+}
+
+/** About **/
+.about {
+    margin-top:0;
+    margin-bottom: 0;
+    
+}
+.about article {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about article section  {
+    width: 60%;
+    margin: auto;   
+}
+
+
+footer#page-footer {
+    height: 400px;
+    background-color: #202020;
 }
 
 /************/
@@ -133,7 +260,9 @@ img {
     
     /** Header bar **/
     .header-bar {
-        height: 140px;    
+        height: 88px;
+        position: sticky;
+        top: 0px;
     }
     
     .header-bar .menu-list li {
@@ -145,16 +274,14 @@ img {
     }
     
     .header-bar .menu-list li a {
-        font-size: 20px;
+        font-size: 14px;
         padding: 5px 0 7px 0;
     }
     
     
     /** Front page hero **/
 .front-page-hero {
-   
-    width: 100vw;
-  height: calc(100vh - 140px);
+  height: calc(100vh - 88px);
     margin: auto;
     }
     
@@ -171,6 +298,12 @@ img {
     
     .teasers .large {
         
+    }
+    
+    .teasers .small p {
+        width:90%;
+        margin-bottom: 2.4rem;
+        color:#7f7f7f;
     }
     
     .teasers .small .img-bg {
