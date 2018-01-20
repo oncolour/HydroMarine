@@ -25,10 +25,9 @@
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/off-canvas.css">
-
-
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/off-canvas.css">
+    <link rel="stylesheet" href="/css/rslides.css">
 
 </head>
 
@@ -41,10 +40,10 @@
         <a href="#main-menu" role="button" id="main-menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Open main menu">
 
     <span class="sr-only">Open main menu</span>
-    <span aria-hidden="true"><img src="images/ic_menu_48px.svg"></span>
+    <span aria-hidden="true"><img src="/images/ic_menu_48px.svg"></span>
   </a>
 
-        <a href="/" class="logotype"><img src="images/logotype_hydro_marine.png" alt="Logotype"></a>
+        <a href="/" class="logotype"><img src="/images/logotype_hydro_marine.png" alt="Logotype"></a>
 
         <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
 
@@ -53,32 +52,14 @@
             <a href="#main-menu-toggle" role="button" id="main-menu-close" class="menu-close" aria-expanded="false" aria-controls="main-menu" aria-label="Close main menu">
 
       <span class="sr-only">Close main menu</span>
-      <span class="" aria-hidden="true"><img src="images/ic_close_48px.svg" alt="Logotype"></span>
+      <span class="" aria-hidden="true"><img src="/images/ic_close_48px.svg" alt="Logotype"></span>
     </a>
             <ul class="menu-list">
-                <li><a href="hydrolift/">Hydrolift</a></li>
-                <li><a href="batformadling/">Båtförmedling</a></li>
-                <li><a href="om-oss/">Om oss</a></li>
-                <li><a href="kontakt/">Kontakt</a></li>
+                <li><a href="/hydrolift/index.php">Hydrolift</a></li>
+                <!--<li><a href="/hydromarine/batformedling/index.php">Båtförmedling</a></li>-->
+                <li><a href="/om-oss/index.php">Om oss</a></li>
+                <!--<li><a href="/kontakt/index.php">Kontakt</a></li>-->
             </ul>
         </nav>
         <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
     </header>
-
-
-
-    <!-- OLD -->
-
-    <!--
-<nav class="header-bar">
-
-    <a href="/" class="logotype"><img src="images/logotype_hydro_marine.png" alt="Logotype"></a>
-
-    <ul class="menu-list">
-        <li><a href="hydrolift/">Hydrolift</a></li>
-        <li><a href="batformadling/">Båtförmedling</a></li>
-        <li><a href="om-oss/">Om oss</a></li>
-        <li><a href="kontakt/">Kontakt</a></li>
-    </ul>
-
-</nav>-->

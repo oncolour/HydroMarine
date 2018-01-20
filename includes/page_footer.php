@@ -1,7 +1,19 @@
 <?php require 'footer.php' ?>
 
-<script async type="text/javascript" src="js/vendor/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/vendor/responsiveslides.min.js"></script>
 
+
+<script>
+    $(function() {
+        $(".rslides").responsiveSlides({
+
+            auto: false,
+            nav: true
+        });
+    });
+
+</script>
 
 </body>
 

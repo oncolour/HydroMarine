@@ -14,12 +14,12 @@ require 'includes/page_header.php'; ?>
 
     <div class="large">
         <a href="#">
-            <img src="images/hydrolift-x-22-2018-7.png" alt="x-22 Hydrolift x-22 2018 models available now">
+            <img src="/images/hydrolift-x-22-2018-7.png" alt="x-22 Hydrolift x-22 2018 models available now">
         </a>
     </div>
 
     <article class="small">
-        <div class="img-bg" style="background-image: url(images/X-22-2017-05-0292.jpg);">
+        <div class="img-bg" style="background-image: url(/images/X-22-2017-05-0292.jpg);">
             <!--            <img src="images/X-22-2017-05-0292.jpg" alt="">-->
         </div>
         <header>
@@ -30,7 +30,7 @@ require 'includes/page_header.php'; ?>
     </article>
 
     <article class="small">
-        <div class="img-bg" style="background-image:url(images/dsc0991-2-crop-u13519.jpg);">
+        <div class="img-bg" style="background-image:url(/images/dsc0991-2-crop-u13519.jpg);">
             <!--            <img src="images/dsc0991-2-crop-u13519.jpg" alt="">-->
         </div>
         <header>
@@ -44,8 +44,8 @@ require 'includes/page_header.php'; ?>
 
 <a href="#" class="big-link">Se alla båtar från hydrolift</a>
 
-<section class="about container">
-    <img src="images/Hydrolift-C-28-IMG_6988-02.jpg" alt="båt, hamn, hydrolift, verkstad">
+<section class="about">
+
     <article class="">
         <section>
             <h2>Vad vi gör</h2>
@@ -53,6 +53,9 @@ require 'includes/page_header.php'; ?>
             <p>Nulla scelerisque pellentesque est, ac fermentum sapien pellentesquxe et. Maecenas sit amet gravida nisl. In efficitur lorem quis metus hendrerit tempor. Nunc dictum ligulat mauris, a venenatis elit aliquam ut.</p>
         </section>
     </article>
+    <div class="container1400">
+        <img src="/images/Hydrolift-C-28-IMG_6988-02.jpg" alt="båt, hamn, hydrolift, verkstad">
+    </div>
 </section>
 
 

@@ -211,6 +211,9 @@ img {
     text-transform: uppercase;
 }
 
+.no-border {
+    border: 0!important;
+}
 
 /** Header bar **/
 
@@ -224,6 +227,7 @@ img {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    z-index: 9999999999;
 }
 
 .header-bar .logotype img {
@@ -259,6 +263,39 @@ img {
     padding: 0 40px;
     height: calc(100vh - 50px);
 }
+
+.front-page-hero::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    background-color: #e9464d;
+    bottom: -20px;
+}
+
+.hydro-p {
+    background-color: #0c1422;
+    background-image: none;
+}
+
+.hydro-p img {
+    width: 280px;
+    margin-bottom: 30px;
+}
+
+.xseries img {
+    width: 185px;
+    margin-top: -80px;
+    margin-bottom: 0px;
+}
+
+.hydro-p p {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
 
 
 /** Teasers **/
@@ -296,7 +333,8 @@ img {
     display: inline-block;
 }
 
-.teasers .small span {
+.teasers .small span,
+.product-teasers .product-info span {
     color: #989898;
     font-size: 14px;
     display: block;
@@ -308,6 +346,38 @@ img {
     background-position: center center;
     min-height: 150px;
 }
+
+/** Product-teasers **/
+
+.product-teasers {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.product-info h3 {
+    font-size: 26px;
+}
+
+.product-teasers .product-info {
+    background-color: #f6f6f6;
+    padding: 20px 20px;
+    order: 2;
+}
+
+.product-teasers .product-info span.price {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.product-teasers .rslides {
+    order: 1;
+
+}
+
+
+
 
 /** About **/
 
@@ -321,7 +391,7 @@ img {
 }
 
 .about article {
-    background-color: #f0f0f0;
+    background-color: #f6f6f6;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -330,6 +400,11 @@ img {
 .about article section {
     margin: auto;
     padding: 0 20px;
+}
+
+.about .logo {
+    width: 100px;
+    margin-bottom: 50px;
 }
 
 /** Footer **/
@@ -389,6 +464,36 @@ footer#page-footer {
     text-align: center;
 }
 
+/** Quick-contact **/
+
+.quick-contact {
+    background-color: #e9464d;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.quick-contact a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+span.space {
+    margin: 0 10px;
+}
+
+span.mail {
+    display: block;
+    margin: 15px 0;
+
+}
+
+/** Maps **/
+
+.map {
+    width: 100vw;
+}
 
 
 /************/
@@ -438,9 +543,24 @@ footer#page-footer {
         margin: auto;
     }
 
+    .front-page-hero::before {
+        height: 120px;
+        bottom: -40px;
+    }
+
     .front-page-hero h1 {
         width: 80%;
     }
+
+    .xseries img {
+        width: 350px;
+    }
+
+    .hydro-p p {
+        font-size: 20px;
+    }
+
+
     .container {
         max-width: 768px;
         padding: 0 50px;
@@ -462,6 +582,11 @@ footer#page-footer {
         content: " - ";
         padding: 0 5px;
     }
+
+    /** Product-teasers **/
+    .product-teasers .product-info {}
+
+    .product-teasers .rslides {}
 
     /** About **/
     .about {
@@ -523,6 +648,16 @@ footer#page-footer {
 
 @media only screen and (min-width: 64em) {
 
+    h2 {
+        font-size: 40px;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        margin-bottom: 2rem;
+    }
+
+
     /** Header **/
     .header-bar {
         padding: 0 75px;
@@ -541,11 +676,51 @@ footer#page-footer {
 
     }
 
+    .container1400 {
+        max-width: 1400px;
+        margin: auto;
+    }
+
+    .xseries {
+        justify-content: flex-start;
+    }
+
+    .hydro-p img {
+        width: 450px;
+    }
+
+    .xseries img {
+        width: 300px;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    .hydro-p p {
+        color: #fff;
+        font-size: 22px;
+        width: 50%
+    }
+
     /** About **/
     .about {
         margin-top: 0;
         margin-bottom: 0;
+    }
 
+    .about article {
+        padding: 140px 0 160px;
+    }
+
+    .about article section {
+        width: 720px;
+    }
+
+    .about .logo {
+        margin-bottom: 80px;
+    }
+
+    .about article section p {
+        font-size: 20px;
     }
 
     /** Teasers **/
@@ -564,6 +739,43 @@ footer#page-footer {
 
     }
 
+    /** Product-teasers **/
+    .product-teasers {
+        flex-direction: row;
+    }
+
+    .product-teasers .product-info {
+        order: 1;
+        flex-basis: 40%;
+        padding: 40px 40px;
+    }
+
+
+    .product-teasers .rslides-container {
+        order: 2;
+        flex-basis: 60%
+    }
+
+    .product-teasers .rslides-container.odd {
+        order: 1;
+    }
+
+    .product-teasers .product-info.odd {
+        order: 2;
+    }
+
+    .product-info h3 {
+        font-size: 36px;
+    }
+
+    .product-teasers .product-info span.price {
+        font-size: 18px;
+    }
+
+    .product-info p {
+        font-size: 18px;
+    }
+
     /** Page footer **/
     #page-footer .container {
         padding: 0 50px;
@@ -571,5 +783,11 @@ footer#page-footer {
     #page-footer img {
         max-width: 316px;
     }
+
+    /** Quick-contact **/
+    .quick-contact p {
+        font-size: 20px;
+    }
+
 
 }
