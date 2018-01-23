@@ -55,10 +55,10 @@
       <span class="" aria-hidden="true"><img src="/images/ic_close_48px.svg" alt="Logotype"></span>
     </a>
             <ul class="menu-list">
-                <li><a href="/hydrolift/index.php">Hydrolift</a></li>
-                <!--<li><a href="/hydromarine/batformedling/index.php">Båtförmedling</a></li>-->
-                <li><a href="/om-oss/index.php">Om oss</a></li>
-                <!--<li><a href="/kontakt/index.php">Kontakt</a></li>-->
+                <li><a href="/hydrolift">Hydrolift</a></li>
+                <!--<li><a href="/hydromarine/batformedling">Båtförmedling</a></li>-->
+                <li><a href="/om-oss">Om oss</a></li>
+                <!--<li><a href="/kontakt">Kontakt</a></li>-->
             </ul>
         </nav>
         <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>

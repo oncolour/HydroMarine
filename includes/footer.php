@@ -11,12 +11,12 @@
 <footer id="page-footer">
     <section class="container">
         <ul>
-            <li><a href="/hydrolift/index.php">Hydrolift</a></li>
+            <li><a href="/hydrolift">Hydrolift</a></li>
             <!--<li><a href="#">Båtförmedling</a></li>-->
-            <li><a href="/om-oss/index.php">Om oss</a></li>
+            <li><a href="/om-oss">Om oss</a></li>
             <!--<li><a href="/kontakt/index.php">Kontakt</a></li>-->
         </ul>
-        <img src="/images/logo_neg.svg" alt="Hydro Marine Logotype">
+        <a class="footer-logo" href="/"><img  src="/images/logo_neg.svg" alt="Hydro Marine Logotype"></a>
         <address>
     <span class="strong">Hydro Marine AB</span><br>
     Biskopsudden, Djurgården<br>

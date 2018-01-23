@@ -13,14 +13,13 @@ require 'includes/page_header.php'; ?>
 <section class="teasers container">
 
     <div class="large">
-        <a href="#">
-            <img src="/images/hydrolift-x-22-2018-7.png" alt="x-22 Hydrolift x-22 2018 models available now">
+        <a class="las-mer" href="hydrolift/x-series">
+            <img  src="/images/hydrolift-x-22-2018-7.png" alt="x-22 Hydrolift x-22 2018 models available now">
         </a>
     </div>
 
     <article class="small">
         <div class="img-bg" style="background-image: url(/images/X-22-2017-05-0292.jpg);">
-            <!--            <img src="images/X-22-2017-05-0292.jpg" alt="">-->
         </div>
         <header>
             <h3>Hydrolift X-26 S</h3>
@@ -31,7 +30,6 @@ require 'includes/page_header.php'; ?>
 
     <article class="small">
         <div class="img-bg" style="background-image:url(/images/dsc0991-2-crop-u13519.jpg);">
-            <!--            <img src="images/dsc0991-2-crop-u13519.jpg" alt="">-->
         </div>
         <header>
             <h3>Möt oss på båtmässan</h3>
@@ -42,7 +40,7 @@ require 'includes/page_header.php'; ?>
 
 </section>
 
-<a href="#" class="big-link">Se alla båtar från hydrolift</a>
+<a href="hydrolift" class="big-link">Se alla båtar från hydrolift</a>
 
 <section class="about">
 
