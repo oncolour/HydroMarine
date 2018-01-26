@@ -25,9 +25,12 @@
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic' rel='stylesheet' type='text/css'>
 
+    <link rel="stylesheet" href="/css/hydromarine.min.css">
+    <!--
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/off-canvas.css">
     <link rel="stylesheet" href="/css/rslides.css">
+-->
 
 </head>
 

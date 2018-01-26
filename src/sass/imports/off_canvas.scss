@@ -1,0 +1,145 @@
+/* Screen reader only */
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Button styling */
+
+.menu-toggle img {
+    width: 35px;
+}
+
+@media only screen and (max-width: 767px) {
+    #main-menu-toggle {
+        margin-top: -13px;
+        padding-top: 13px;
+    }
+    /*
+ Default styles + Mobile first
+ Offscreen menu style
+*/
+    .main-menu {
+        position: absolute;
+        right: -90vw;
+        top: 0;
+        height: 100%;
+        /*overflow-y: scroll;*/
+        overflow-x: visible;
+        transition: right 0.3s ease, box-shadow 0.3s ease;
+        z-index: 999;
+        background-color: #0c1422;
+        padding: 80px 0 50px 20px;
+        ul {
+            min-height: 100%;
+            width: 75vw;
+            li {
+                margin-bottom: 30px;
+                font-size: 24px;
+            }
+        }
+        .menu-close {
+            position: absolute;
+            right: 13px;
+            top: 1px;
+            img {
+                height: 33px;
+                padding: 7px 0 0 0;
+            }
+        }
+        &:target {
+            .logotype {
+                opacity: 0;
+            }
+            right: 0;
+            outline: none;
+            -moz-box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
+            -webkit-box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
+            box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
+        }
+        &[aria-expanded="true"] {
+            right: 0;
+            outline: none;
+            -moz-box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
+            -webkit-box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
+            box-shadow: 3px 0 12px rgba(0, 0, 0, 0.25);
+        }
+        &:target .menu-close,
+        &[aria-expanded="true"] .menu-close {
+            z-index: 1001;
+        }
+        &:target ul,
+        &[aria-expanded="true"] ul {
+            position: relative;
+            z-index: 1000;
+        }
+    }
+    /*
+ :target for non-JavaScript
+ aria-expanded="true/false" will be for JavaScript
+*/
+    /* 
+ We could us `.main-menu:target:after`, but
+ it wouldn't be clickable.
+*/
+    .backdrop {
+        position: relative;
+        z-index: 99999;
+    }
+    .main-menu {
+        &:target + .backdrop,
+        &[aria-expanded="true"] + .backdrop {
+            position: absolute;
+            display: block;
+            content: "";
+            right: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 998;
+            background: #000;
+            background: rgba(0, 0, 0, 0.55);
+            cursor: default;
+        }
+    }
+    @supports (position: fixed) {
+        .main-menu {
+            position: fixed;
+            &:target + .backdrop,
+            &[aria-expanded="true"] + .backdrop {
+                position: fixed;
+            }
+        }
+    }
+}
+
+/*
+ Larger screen styling
+ Horizontal menu
+*/
+
+@media (min-width: 768px) {
+    .menu-toggle {
+        display: none;
+    }
+    .main-menu {
+        .menu-close {
+            display: none;
+        }
+        position: relative;
+        left: auto;
+        top: auto;
+        height: auto;
+        ul {
+            display: flex;
+        }
+    }
+    /* Undo positioning of off-canvas menu */
+}
