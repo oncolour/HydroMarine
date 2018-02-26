@@ -299,7 +299,40 @@ iframe {
     margin-bottom: 0px;
 }
 
-.hydro-p p {
+.start {
+    background-image: url(/images/hero_wave.png);
+    img {
+        width: 250px;
+    }
+
+}
+
+.xseries {
+    background-image: url(/images/HydroliftX-22-2018-09X-series.jpg);
+}
+
+.signature {
+    background-color: #0c1422;
+    background-image: url(/images/sighead2.png);
+    img {
+        width: 350px;
+        margin-bottom: 0px;
+    }
+}
+
+.pro {
+    background-color: #0c1422;
+    background-image: url(/images/ProfHead3.png);
+    img {
+        width: 350px;
+        margin-bottom: 0px;
+    }
+}
+
+
+.hydro-p p,
+.signature p,
+.pro p {
     color: #fff;
     font-size: 16px;
 }
@@ -581,7 +614,12 @@ span {
     .xseries img {
         width: 350px;
     }
-    .hydro-p p {
+
+
+
+    .hydro-p p,
+    .signature p,
+    .pro p {
         font-size: 20px;
     }
     .container {
@@ -691,7 +729,22 @@ span {
         margin-top: 80px;
         margin-bottom: 0px;
     }
-    .hydro-p p {
+
+    .signature {
+
+        p {
+            margin-top: -120px;
+        }
+
+        img {
+            width: 500px;
+            margin-top: -60px;
+        }
+    }
+
+    .hydro-p p,
+    .signature p,
+    .pro p {
         color: #fff;
         font-size: 22px;
         width: 50%;
@@ -741,6 +794,7 @@ span {
         .rslides-container {
             order: 2;
             flex-basis: 60%;
+            background-color: #f6f6f6;
             &.odd {
                 order: 1;
             }

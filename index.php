@@ -3,9 +3,10 @@
 $your_meta_description = "Vi säljer båtar";
 require 'includes/page_header.php'; ?>
 
-<section class="front-page-hero">
+<section class="front-page-hero start">
 
-    <h1>Sveriges enda återförsäljare av <span class="strong">Hydrolift</span></h1>
+    <img src="/images/symbols_and_logos/hydrolift_shield_1000px.png" alt="">
+    <br>
     <a href="hydrolift/" class="btn btn-ghost">Läs mer</a>
 
 </section>
@@ -19,23 +20,31 @@ require 'includes/page_header.php'; ?>
     </div>
 
     <article class="small">
-        <div class="img-bg" style="background-image: url(/images/X-22-2017-05-0292.jpg);">
+        <div class="img-bg" style="background-image: url(/images/allt_for_sjon_batmassa.png);">
         </div>
         <header>
-            <h3>Hydrolift X-26 S</h3>
-            <span>Kanonbåt med mycket krut</span>
+            <h3>Möt oss på Allt För Sjön</h3>
+            <span></span>
         </header>
-        <p>The X—22 is all about making the ordinary exceptional. Featuring smart and flexible design solutions.</p>
+        <p>Den 3-11 Mars befinner vi oss på ÄlvsjöMässan för att prata om Hydrolift.
+            <br>
+            <br><a class="btn btn-ghost" href="http://www.alltforsjon.se">Läs mer</a>
+        </p>
+
     </article>
 
     <article class="small">
-        <div class="img-bg" style="background-image:url(/images/dsc0991-2-crop-u13519.jpg);">
+        <div class="img-bg" style="background-image:url(/images/28580219_10215581801726088_1569819182_o.jpg);">
         </div>
         <header>
-            <h3>Möt oss på båtmässan</h3>
-            <span>27/4-2018</span>
+            <h3>X-22 – Hydrolifts flört med vanligt båtfolk</h3>
+            <span></span>
         </header>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus, urna lobortis eleifend dapibus, dui libero pulvinar ligula..</p>
+        <p>Hamnen.se har skrivit ett par rader om Hydrolift X-22.
+            <br>
+            <br><a class="btn btn-ghost" href="https://www.hamnen.se/artiklar/motorbatar/x-22-hydrolifts-nya-flort-med-den-breda-massan.html">Läs hela artikeln här</a>
+        </p>
+
     </article>
 
 </section>
@@ -46,9 +55,14 @@ require 'includes/page_header.php'; ?>
 
     <article class="">
         <section>
-            <h2>Vad vi gör</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut augue gravida, blandit justo sed, sollicitudin quam. Sed sit amet est vitae diam ultricies interdum. Donec justo nisl, malesuada sed ante ac, interdum posuere erat. Praesent quis metus et nunc egestas sodales ut et lectus.</p>
-            <p>Nulla scelerisque pellentesque est, ac fermentum sapien pellentesquxe et. Maecenas sit amet gravida nisl. In efficitur lorem quis metus hendrerit tempor. Nunc dictum ligulat mauris, a venenatis elit aliquam ut.</p>
+            <h2>Båtförmedling</h2>
+            <p>Går du i säljtankar? Utöver försäljning av Hydrolift erbjuder vi även båtförmedling. Vi tar hand om hela affären, allt från besiktning till kontraktskrivning.</p>
+
+            <p>Med vårt unika sjöläge vid Biskopsuddens marina ger vi er de bästa förutsättningarna för att sälja er båt.</p>
+
+            <p>Kontakta oss för en kostnadsfri värdering så hjälper vi er!
+
+            </p>
         </section>
     </article>
     <div class="container1400">

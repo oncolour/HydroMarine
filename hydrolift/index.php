@@ -5,7 +5,11 @@ require '../includes/page_header.php'; ?>
 
 <section class="front-page-hero hydro-p txt">
     <img src="/images/hydrolift_logo_light_logotype_fixed_header.png" width="250px" alt="">
-    <p>“I'm more of a warrior than you'll ever be. I believe in the class war. I believe in the battle of the sexes. I believe in my tribe. I believe in the righteous, intelligent clued-up section of the working classes against the brain-dead moronic masses as well as the mediocre, soulless bourgeoisie.”
+    <p>Designed and built in Norway, our boat range gives our customers a lifetime of exceptional performance and efficiency. We are committed to continuous product improvement and evolution, delivering only the highest quality boats and unmatchable design to the premium segment. In short, we are satisfied with nothing less than the best – design, function and performance.
+
+    </p>
+
+    <p>Följ oss på Facebook!
     </p>
 
 </section>
