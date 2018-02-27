@@ -22,27 +22,26 @@ require '../includes/page_header.php'; ?>
     <img src="/images/omoss.jpg" alt="båt, hamn, hydrolift, verkstad">
 </section>
 
-<section class="teasers container om-oss">
+<section class="teasers container om-oss fadeIn">
 
-    <article class="small">
+    <article itemscope itemtype="http://schema.org/Person" class="small">
         <div class="img-bg" style="background: url(https://scontent.fbma2-1.fna.fbcdn.net/v/t31.0-8/21125491_10211708625645636_1550561854322553425_o.jpg?oh=4d65dad243a66aaa20e2de754c9a67ae&oe=5AF3CA5F) top center/cover;">
         </div>
-        <header>
+        <header itemprop="name">
             <h3>John Rydell</h3>
 
         </header>
-        <p><a href="tel:0703800840">070 380 08 40</a></p>
+        <p itemprop="telephone"><a href="tel:+46-70-380-08-40">070 380 08 40</a></p>
     </article>
 
-    <article class="small">
+    <article itemscope itemtype="http://schema.org/Person" class="small">
         <div class="img-bg" style="background:url(https://scontent.fbma2-1.fna.fbcdn.net/v/t1.0-9/19554223_1559977224036619_872365955966528212_n.jpg?oh=b87cb8f6a442d520e6aaa69f58baefaa&oe=5AD8A348) top center/cover;">
-            <!--            <img src="images/dsc0991-2-crop-u13519.jpg" alt="">-->
         </div>
-        <header>
-            <h3>Morgan</h3>
+        <header itemprop="name">
+            <h3>Morgan Tönnesen</h3>
 
         </header>
-        <p><a href="tel:0703800959">0703800959</a></p>
+        <p itemprop="telephone"><a href="tel:+46-70-380-09-59">070 380 09 59</a></p>
     </article>
 
 </section>

@@ -155,6 +155,11 @@ body {
 
 a {
     text-decoration: none;
+    color: #373737;
+
+    &[href^="tel:"]:hover {
+        border-bottom: 2px solid #e9464d;
+    }
     &.big-link {
         padding: 50px;
         display: block;
@@ -232,6 +237,17 @@ iframe {
     border: 0 !important;
 }
 
+.fadeIn {
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: all 0.55s ease;
+}
+
+.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
 /** Header bar **/
 
 .header-bar {
@@ -264,7 +280,7 @@ iframe {
 /** Front page hero **/
 
 .front-page-hero {
-    background-image: url(../images/hero_wave.png);
+    background-image: url(/images/C-31/Hydrolift_C-31-83671.jpg);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -284,6 +300,27 @@ iframe {
     }
 }
 
+.start {
+    &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .5) 50%, rgba(0, 0, 0, 0) 100%);
+        z-index: 0;
+        opacity: 0.5;
+    }
+    img {
+        width: 150px;
+    }
+    img,
+    h1,
+    p,
+    a {
+        z-index: 1;
+    }
+}
+
 .hydro-p {
     background-color: #0c1422;
     background-image: none;
@@ -291,20 +328,16 @@ iframe {
         width: 280px;
         margin-bottom: 30px;
     }
+    a {
+        color: #fff;
+        text-decoration: underline;
+    }
 }
 
 .xseries img {
     width: 185px;
     margin-top: -80px;
     margin-bottom: 0px;
-}
-
-.start {
-    background-image: url(/images/hero_wave.png);
-    img {
-        width: 250px;
-    }
-
 }
 
 .xseries {
@@ -610,7 +643,12 @@ span {
         h1 {
             width: 80%;
         }
+        &.half {
+            height: calc(70vh - 88px);
+        }
     }
+
+
     .xseries img {
         width: 350px;
     }
@@ -686,6 +724,9 @@ span {
     }
 }
 
+
+
+
 /*************/
 
 /** Desktop **/
@@ -705,8 +746,13 @@ span {
         padding: 0 75px;
     }
     /** Front page hero **/
-    .front-page-hero h1 {
-        width: 800px;
+    .front-page-hero {
+        h1 {
+            width: 800px;
+        }
+        &.half {
+            height: calc(75vh - 88px);
+        }
     }
     /** Container **/
     .container {
@@ -824,6 +870,42 @@ span {
         font-size: 20px;
     }
 }
+
+
+/**********************/
+
+/** Tablet Landscape **/
+
+/**********************/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+    .front-page-hero {
+
+        &.half {
+            height: calc(100vh - 88px);
+        }
+    }
+
+}
+
+/**********************/
+
+/** Small laptops **/
+
+/**********************/
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1440px) {
+
+    .front-page-hero {
+
+        &.half {
+            height: calc(100vh - 88px);
+        }
+    }
+
+}
+
 
 @import 'imports/off_canvas';
 @import 'imports/rslides';

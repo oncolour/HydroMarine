@@ -7,19 +7,21 @@ require 'includes/page_header.php'; ?>
 
     <img src="/images/symbols_and_logos/hydrolift_shield_1000px.png" alt="">
     <br>
+    <h1>Sveriges enda återförsäljare av <span class="strong">Hydrolift</span></h1>
+    <br>
     <a href="hydrolift/" class="btn btn-ghost">Läs mer</a>
 
 </section>
 
 <section class="teasers container">
 
-    <div class="large">
+    <div class="large fadeIn">
         <a class="las-mer" href="hydrolift/x-series">
             <img  src="/images/hydrolift-x-22-2018-7.png" alt="x-22 Hydrolift x-22 2018 models available now">
         </a>
     </div>
 
-    <article class="small">
+    <article class="small fadeIn">
         <div class="img-bg" style="background-image: url(/images/allt_for_sjon_batmassa.png);">
         </div>
         <header>
@@ -33,7 +35,7 @@ require 'includes/page_header.php'; ?>
 
     </article>
 
-    <article class="small">
+    <article class="small fadeIn">
         <div class="img-bg" style="background-image:url(/images/28580219_10215581801726088_1569819182_o.jpg);">
         </div>
         <header>

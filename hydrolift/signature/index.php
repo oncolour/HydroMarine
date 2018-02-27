@@ -3,17 +3,15 @@
 $your_meta_description = "Vi säljer båtar";
 require '../../includes/page_header.php'; ?>
 
-<section class="front-page-hero signature xseries">
+<section class="front-page-hero signature xseries half">
 
     <img src="/images/SigLogo.png" width="250" alt="">
-
-    <p>Tailor made individual boats for the high end demanding customer.</p>
 
 </section>
 
 <section class="product-container container">
 
-    <article class="product-teasers">
+    <article class="product-teasers fadeIn">
 
         <header class="product-info">
             <h3>Hydrolift S-24</h3>
@@ -28,14 +26,14 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/hydrolift-x-22-2018-7.png" alt=""></li>
-                <li><img src="/images/X-22-2017-05-0292.jpg" alt=""></li>
-                <li><img src="/images/dsc0991-2-crop-u13519.jpg" alt=""></li>
+                <li><img src="/images/S-24/Hydrolift_platinum_1_opt.jpg" alt=""></li>
+                <li><img src="/images/S-24/Hydrolift_platinum_5_opt.jpg" alt=""></li>
+                <li><img src="/images/S-24/DSC_0320_opt.jpg" alt=""></li>
             </ul>
         </div>
     </article>
 
-    <article class="product-teasers">
+    <article class="product-teasers fadeIn">
 
         <header class="product-info odd">
             <h3>Hydrolift S-24 Sun</h3>
@@ -52,14 +50,12 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container odd">
             <ul class="rslides">
-                <li><img src="/images/hydrolift-x-22-2018-7.png" alt=""></li>
-                <li><img src="/images/X-22-2017-05-0292.jpg" alt=""></li>
-                <li><img src="/images/dsc0991-2-crop-u13519.jpg" alt=""></li>
+                <li><img src="/images/s-24sun/hydrolift_signature_boats_s-24_sun_1023x681_02.png" alt=""></li>
             </ul>
         </div>
     </article>
 
-    <article class="product-teasers">
+    <article class="product-teasers fadeIn">
 
         <header class="product-info">
             <h3>Hydrolift C-24 R</h3>
@@ -70,14 +66,12 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/hydrolift-x-22-2018-7.png" alt=""></li>
-                <li><img src="/images/X-22-2017-05-0292.jpg" alt=""></li>
-                <li><img src="/images/dsc0991-2-crop-u13519.jpg" alt=""></li>
+                <li><img src="/images/c-24/hydrolift_signature_boats_c-24_1023x681_03.png" alt=""></li>
             </ul>
         </div>
     </article>
 
-    <article class="product-teasers">
+    <article class="product-teasers fadeIn">
 
         <header class="product-info odd">
             <h3>Hydrolift S-25 Sun</h3>
@@ -90,14 +84,14 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container odd">
             <ul class="rslides">
-                <li><img src="/images/hydrolift-x-22-2018-7.png" alt=""></li>
-                <li><img src="/images/X-22-2017-05-0292.jpg" alt=""></li>
-                <li><img src="/images/dsc0991-2-crop-u13519.jpg" alt=""></li>
+                <li><img src="/images/s-25/hydrolift_signature_boats_s-25_sun_1023x681_01.png" alt=""></li>
+                <li><img src="/images/s-25/hydrolift_signature_boats_s-25_sun_1023x681_03.png" alt=""></li>
+                <li><img src="/images/s-25/hydrolift_signature_boats_s-25_sun_1023x681_06.png" alt=""></li>
             </ul>
         </div>
     </article>
 
-    <article class="product-teasers">
+    <article class="product-teasers fadeIn">
 
         <header class="product-info">
             <h3>Hydrolift S-28</h3>
@@ -109,17 +103,17 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/hydrolift-x-22-2018-7.png" alt=""></li>
-                <li><img src="/images/X-22-2017-05-0292.jpg" alt=""></li>
-                <li><img src="/images/dsc0991-2-crop-u13519.jpg" alt=""></li>
+                <li><img src="/images/s-28/hydrolift_tailor_made_s28_02.png" alt=""></li>
+                <li><img src="/images/s-28/hydrolift_tailor_made_s28_03.png" alt=""></li>
+                <li><img src="/images/s-28/hydrolift_tailor_made_s28_detail_.png" alt=""></li>
             </ul>
         </div>
     </article>
 
-    <article class="product-teasers">
+    <article class="product-teasers fadeIn">
 
         <header class="product-info odd">
-            <h3>Hydrolift C-25 Cab Sun</h3>
+            <h3>Hydrolift C-28 Cab</h3>
             <!--<span class="price"></span>-->
             <p>The C-28 Cab is the perfect weekend cruiser for boat owners who expect more. Its practical yet luxuriously appointed cabin comfortably accommodates 2 adults and 2 children, while its’ perfectly designed 2-step V-hull ensures safe, easy handling at high speed and in rough seas. A spacious swimming platform forms the natural social centerpiece of the boat, and ensures hours of enjoyment and relaxation for young and old alike.</p>
             <p>
@@ -129,17 +123,17 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container odd">
             <ul class="rslides">
-                <li><img src="/images/hydrolift-x-22-2018-7.png" alt=""></li>
-                <li><img src="/images/X-22-2017-05-0292.jpg" alt=""></li>
-                <li><img src="/images/dsc0991-2-crop-u13519.jpg" alt=""></li>
+                <li><img src="/images/C-28/Hydrolift_C-28_Cab_Shoot_collegtion3_opt.jpg" alt=""></li>
+                <li><img src="/images/C-28/Hydrolift_C-28_Cab_Shoot_collegtion8_opt.jpg" alt=""></li>
+                <li><img src="/images/C-28/Hydrolift_C-28_Cab_Shoot_collegtion13_opt.jpg" alt=""></li>
             </ul>
         </div>
     </article>
 
-    <article class="product-teasers">
+    <article class="product-teasers fadeIn">
 
         <header class="product-info">
-            <h3>Hydrolift C-31 V2 Sun</h3>
+            <h3>Hydrolift C-31 V2</h3>
             <!--<span class="price"></span>-->
             <p>The Hydrolift C-31 combines performance and aesthetics.</p>
             <p>
@@ -150,14 +144,12 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/hydrolift-x-22-2018-7.png" alt=""></li>
-                <li><img src="/images/X-22-2017-05-0292.jpg" alt=""></li>
-                <li><img src="/images/dsc0991-2-crop-u13519.jpg" alt=""></li>
+                <li><img src="/images/C-31/Hydrolift_C-31-8294_opt.jpg" alt=""></li>
             </ul>
         </div>
     </article>
 
-    <article class="product-teasers">
+    <article class="product-teasers fadeIn">
 
         <header class="product-info odd">
             <h3>Hydrolift C-32 Sun</h3>
@@ -174,14 +166,14 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container odd">
             <ul class="rslides">
-                <li><img src="/images/hydrolift-x-22-2018-7.png" alt=""></li>
-                <li><img src="/images/X-22-2017-05-0292.jpg" alt=""></li>
-                <li><img src="/images/dsc0991-2-crop-u13519.jpg" alt=""></li>
+                <li><img src="/images/c-32sun/hydrolift_signature_boats_c-32_sun_1023x681_01.png" alt=""></li>
+                <li><img src="/images/c-32sun/hydrolift_signature_boats_c-32_sun_1023x681_02.png" alt=""></li>
+                <li><img src="/images/c-32sun/hydrolift_signature_boats_c-32_sun_1023x681_05.png" alt=""></li>
             </ul>
         </div>
     </article>
 
-    <article class="product-teasers">
+    <article class="product-teasers fadeIn">
 
         <header class="product-info">
             <h3>Hydrolift C-33 Cab</h3>
@@ -201,9 +193,9 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/hydrolift-x-22-2018-7.png" alt=""></li>
-                <li><img src="/images/X-22-2017-05-0292.jpg" alt=""></li>
-                <li><img src="/images/dsc0991-2-crop-u13519.jpg" alt=""></li>
+                <li><img src="/images/c-33cab/hydrolift_signature_boats_c33_eker_design_-2.png" alt=""></li>
+                <li><img src="/images/c-33cab/hydrolift_signature_boats_c33_cab_.png" alt=""></li>
+
             </ul>
         </div>
     </article>

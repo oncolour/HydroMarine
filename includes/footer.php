@@ -1,9 +1,9 @@
 <section class="quick-contact">
-    <div class="1400">
+    <div itemscope itemtype="http://schema.org/LocalBusiness" class="1400">
         <h2>Questions?</h2>
         <p>Email us or give us a call!</p>
-        <span class="tel"> <a href="tel:070-123-44-55">070 123 44 55</a></span><span class="space"> / </span><span class="tel"><a href="tel:073-123-44-55">073 123 44 55</a></span>
-        <span class="mail"> <a href="mailto:info@hydromarine.se">info@hydromarine.se</a></span>
+        <span class="tel"> <a itemprop="telephone" href="tel:+46-70-380-08-40">070 380 08 40</a></span><span class="space"> / </span><span class="tel"><a itemprop="telephone" href="tel:+46-70-380-09-59">070 380 09 59</a></span>
+        <span itemprop="email" class="mail"> <a href="mailto:info@hydromarine.se">info@hydromarine.se</a></span>
     </div>
 
 </section>
@@ -17,11 +17,11 @@
             <!--<li><a href="/kontakt/index.php">Kontakt</a></li>-->
         </ul>
         <a class="footer-logo" href="/"><img  src="/images/logo_neg.svg" alt="Hydro Marine Logotype"></a>
-        <address>
-    <span class="strong">Hydro Marine AB</span><br>
-    Biskopsvägen 7, 115 21 stockholm<br>
-        <a href="tel:0703800840">070 380 08 40</a> / <a href="tel:0703800959">0703800959</a> <br>
-        <a href="mailto:info@hydromarine.se">info@hydromarine.se</a>
+        <address itemscope itemtype="http://schema.org/LocalBusiness">
+    <span itemprop="name" class="strong">Hydro Marine AB</span><br>
+    <span itemprop="address">Biskopsvägen 7, 115 21 stockholm</span><br>
+        <a itemprop="telephone" href="tel:+46-70-380-08-40">070 380 08 40</a> / <a itemprop="telephone" href="tel:+46-70-380-09-59">070 380 09 59</a> <br>
+        <a itemprop="email" href="mailto:info@hydromarine.se">info@hydromarine.se</a>
     </address>
     </section>
 </footer>

@@ -3,7 +3,7 @@
 $your_meta_description = "Vi säljer båtar";
 require '../../includes/page_header.php'; ?>
 
-<section class="front-page-hero hydro-p xseries">
+<section class="front-page-hero hydro-p xseries half">
     <!--<img src="/images/hydrolift_x_series_logo_.png" width="250" alt="">
 
     <p>Afforadble high performance quality boats with outboard engines </p>-->
@@ -12,7 +12,7 @@ require '../../includes/page_header.php'; ?>
 
 <section class="product-container container">
 
-    <article class="product-teasers">
+    <article class="product-teasers fadeIn">
 
         <header class="product-info">
             <h3>Hydrolift X-22</h3>
@@ -32,7 +32,7 @@ require '../../includes/page_header.php'; ?>
         </div>
     </article>
 
-    <article class="product-teasers">
+    <article class="product-teasers fadeIn">
 
         <header class="product-info">
             <h3>Hydrolift X-26 s</h3>
@@ -62,7 +62,7 @@ require '../../includes/page_header.php'; ?>
     </article>
 
 
-    <article class="product-teasers">
+    <article class="product-teasers fadeIn">
 
         <header class="product-info odd">
             <h3>Hydrolift X-26 DC</h3>
@@ -91,7 +91,7 @@ require '../../includes/page_header.php'; ?>
     </article>
 
 
-    <article class="product-teasers">
+    <article class="product-teasers fadeIn">
 
         <header class="product-info odd">
             <h3>Hydrolift X-28</h3>
