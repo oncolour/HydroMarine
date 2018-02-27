@@ -26,9 +26,9 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/S-24/Hydrolift_platinum_1_opt.jpg" alt=""></li>
-                <li><img src="/images/S-24/Hydrolift_platinum_5_opt.jpg" alt=""></li>
-                <li><img src="/images/S-24/DSC_0320_opt.jpg" alt=""></li>
+                <li><img src="/images/s-24/Hydrolift_platinum_1_opt.jpg" alt=""></li>
+                <li><img src="/images/s-24/Hydrolift_platinum_5_opt.jpg" alt=""></li>
+                <li><img src="/images/s-24/DSC_0320_opt.jpg" alt=""></li>
             </ul>
         </div>
     </article>
@@ -123,9 +123,9 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container odd">
             <ul class="rslides">
-                <li><img src="/images/C-28/Hydrolift_C-28_Cab_Shoot_collegtion3_opt.jpg" alt=""></li>
-                <li><img src="/images/C-28/Hydrolift_C-28_Cab_Shoot_collegtion8_opt.jpg" alt=""></li>
-                <li><img src="/images/C-28/Hydrolift_C-28_Cab_Shoot_collegtion13_opt.jpg" alt=""></li>
+                <li><img src="/images/c-28/Hydrolift_C-28_Cab_Shoot_collegtion3_opt.jpg" alt=""></li>
+                <li><img src="/images/c-28/Hydrolift_C-28_Cab_Shoot_collegtion8_opt.jpg" alt=""></li>
+                <li><img src="/images/c-28/Hydrolift_C-28_Cab_Shoot_collegtion13_opt.jpg" alt=""></li>
             </ul>
         </div>
     </article>
@@ -144,7 +144,7 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/C-31/Hydrolift_C-31-8294_opt.jpg" alt=""></li>
+                <li><img src="/images/c-31/Hydrolift_C-31-8294_opt.jpg" alt=""></li>
             </ul>
         </div>
     </article>
