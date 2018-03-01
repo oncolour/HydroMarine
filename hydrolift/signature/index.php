@@ -39,7 +39,7 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container odd">
             <ul class="rslides">
-                <li><img src="/images/S-24Sun/hydrolift_signature_boats_s-24_sun_1023x681_02.jpg" alt=""></li>
+                <li><img src="/images/s-24sun/hydrolift_signature_boats_s-24_sun_1023x681_02.jpg" alt=""></li>
             </ul>
         </div>
     </article>
@@ -55,7 +55,7 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/C-24/hydrolift_signature_boats_c-24_1023x681_03.jpg" alt=""></li>
+                <li><img src="/images/c-24/hydrolift_signature_boats_c-24_1023x681_03.jpg" alt=""></li>
             </ul>
         </div>
     </article>
@@ -73,9 +73,9 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container odd">
             <ul class="rslides">
-                <li><img src="/images/S-25/hydrolift_signature_boats_s-25_sun_1023x681_01.jpg" alt=""></li>
-                <li><img src="/images/S-25/hydrolift_signature_boats_s-25_sun_1023x681_03.jpg" alt=""></li>
-                <li><img src="/images/S-25/hydrolift_signature_boats_s-25_sun_1023x681_06.jpg" alt=""></li>
+                <li><img src="/images/s-25/hydrolift_signature_boats_s-25_sun_1023x681_01.jpg" alt=""></li>
+                <li><img src="/images/s-25/hydrolift_signature_boats_s-25_sun_1023x681_03.jpg" alt=""></li>
+                <li><img src="/images/s-25/hydrolift_signature_boats_s-25_sun_1023x681_06.jpg" alt=""></li>
             </ul>
         </div>
     </article>
@@ -92,9 +92,9 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/S-28/hydrolift_tailor_made_s28_02.jpg" alt=""></li>
-                <li><img src="/images/S-28/hydrolift_tailor_made_s28_03.jpg" alt=""></li>
-                <li><img src="/images/S-28/hydrolift_tailor_made_s28_detail_.jpg" alt=""></li>
+                <li><img src="/images/s-28/hydrolift_tailor_made_s28_02.jpg" alt=""></li>
+                <li><img src="/images/s-28/hydrolift_tailor_made_s28_03.jpg" alt=""></li>
+                <li><img src="/images/s-28/hydrolift_tailor_made_s28_detail_.jpg" alt=""></li>
             </ul>
         </div>
     </article>
@@ -142,9 +142,9 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container odd">
             <ul class="rslides">
-                <li><img src="/images/C-32Sun/hydrolift_signature_boats_c-32_sun_1023x681_01.jpg" alt=""></li>
-                <li><img src="/images/C-32Sun/hydrolift_signature_boats_c-32_sun_1023x681_02.jpg" alt=""></li>
-                <li><img src="/images/C-32Sun/hydrolift_signature_boats_c-32_sun_1023x681_05.jpg" alt=""></li>
+                <li><img src="/images/c-32Sun/hydrolift_signature_boats_c-32_sun_1023x681_01.jpg" alt=""></li>
+                <li><img src="/images/c-32Sun/hydrolift_signature_boats_c-32_sun_1023x681_02.jpg" alt=""></li>
+                <li><img src="/images/c-32Sun/hydrolift_signature_boats_c-32_sun_1023x681_05.jpg" alt=""></li>
             </ul>
         </div>
     </article>
