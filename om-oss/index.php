@@ -1,6 +1,6 @@
 <?php 
-    $your_meta_title = "Startpage";
-$your_meta_description = "Vi säljer båtar";
+    $your_meta_title = "Om oss – Hydro Marine – Hydrolift båtförmedling";
+$your_meta_description = "Förmedling av Hydrolift och begagnade båtar i Stockholm. Själ er båt med oss.";
 require '../includes/page_header.php'; ?>
 
 <section class="about">
@@ -19,7 +19,6 @@ require '../includes/page_header.php'; ?>
             </p>
         </section>
     </article>
-    <img src="/images/omoss.jpg" alt="båt, hamn, hydrolift, verkstad">
 </section>
 
 <section class="teasers container om-oss fadeIn">

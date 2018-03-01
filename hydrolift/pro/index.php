@@ -1,6 +1,6 @@
 <?php 
-    $your_meta_title = "Startpage";
-$your_meta_description = "Vi säljer båtar";
+    $your_meta_title = "Professional Hydrolift - Hydro Marine";
+$your_meta_description = "Båtar inom professionella yrken";
 require '../../includes/page_header.php'; ?>
 
 <section class="front-page-hero pro xseries half">
@@ -21,8 +21,8 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/p-42sar/P42_hydrolift_professional_service_vessels-1.png" alt=""></li>
-                <li><img src="/images/p-42sar/SARHEAD2.png" alt=""></li>
+                <li><img src="/images/p-42sar/P42_hydrolift_professional_service_vessels-1.jpg" alt=""></li>
+                <li><img src="/images/p-42sar/SARHEAD2.jpg" alt=""></li>
             </ul>
         </div>
     </article>
@@ -56,7 +56,7 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/p-42discover/pil2.png" alt=""></li>
+                <li><img src="/images/p-42discover/pil2.jpg" alt=""></li>
             </ul>
         </div>
     </article>
@@ -71,7 +71,7 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container odd">
             <ul class="rslides">
-                <li><img src="/images/p-42offshore/OFShead2.png" alt=""></li>
+                <li><img src="/images/p-42offshore/OFShead2.jpg" alt=""></li>
             </ul>
         </div>
     </article>
@@ -87,8 +87,8 @@ require '../../includes/page_header.php'; ?>
 
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/p-42tender/tenderhead2.png" alt=""></li>
-                <li><img src="/images/p-42tender/tendd.png" alt=""></li>
+                <li><img src="/images/p-42tender/tenderhead2.jpg" alt=""></li>
+                <li><img src="/images/p-42tender/tendd.jpg" alt=""></li>
             </ul>
         </div>
     </article>
@@ -103,8 +103,8 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container odd">
             <ul class="rslides">
-                <li><img src="/images/p-42explorer/EXP1.png" alt=""></li>
-                <li><img src="/images/p-42explorer/exphead2.png" alt=""></li>
+                <li><img src="/images/p-42explorer/EXP1.jpg" alt=""></li>
+                <li><img src="/images/p-42explorer/exphead2.jpg" alt=""></li>
             </ul>
         </div>
     </article>
@@ -119,7 +119,7 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/p-42patrol/Police2.png" alt=""></li>
+                <li><img src="/images/p-42patrol/Police2.jpg" alt=""></li>
             </ul>
         </div>
     </article>
@@ -134,9 +134,9 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container odd">
             <ul class="rslides">
-                <li><img src="/images/p-42military/mil3.png" alt=""></li>
-                <li><img src="/images/p-42military/mil4-1.png" alt=""></li>
-                <li><img src="/images/p-42military/milHEAD.png" alt=""></li>
+                <li><img src="/images/p-42military/mil3.jpg" alt=""></li>
+                <li><img src="/images/p-42military/mil4-1.jpg" alt=""></li>
+                <li><img src="/images/p-42military/milHEAD.jpg" alt=""></li>
             </ul>
         </div>
     </article>
@@ -151,9 +151,9 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container">
             <ul class="rslides">
-                <li><img src="/images/p-42firefighter/FF1.png" alt=""></li>
-                <li><img src="/images/p-42firefighter/FF.png" alt=""></li>
-                <li><img src="/images/p-42firefighter/ff2.png" alt=""></li>
+                <li><img src="/images/p-42firefighter/FF1.jpg" alt=""></li>
+                <li><img src="/images/p-42firefighter/FF.jpg" alt=""></li>
+                <li><img src="/images/p-42firefighter/ff2.jpg" alt=""></li>
             </ul>
         </div>
     </article>

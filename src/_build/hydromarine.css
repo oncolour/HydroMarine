@@ -89,7 +89,9 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -239,7 +241,7 @@ iframe {
 
 /** Front page hero **/
 .front-page-hero {
-  background-image: url(/images/C-31/Hydrolift_C-31-83671.jpg);
+  background-image: url(/images/C-31/Hydrolift_C-31_startpage.jpg);
   background-size: cover;
   background-position: center center;
   text-align: center;
@@ -262,7 +264,7 @@ iframe {
   content: "";
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 50%, rgba(0, 0, 0, 0) 100%);
   z-index: 0;
   opacity: 0.5; }
 .start img {
@@ -293,14 +295,14 @@ iframe {
 
 .signature {
   background-color: #0c1422;
-  background-image: url(/images/sighead2.png); }
+  background-image: url(/images/sighead2.jpg); }
   .signature img {
     width: 350px;
     margin-bottom: 0px; }
 
 .pro {
   background-color: #0c1422;
-  background-image: url(/images/ProfHead3.png); }
+  background-image: url(/images/ProfHead3.jpg); }
   .pro img {
     width: 350px;
     margin-bottom: 0px; }
@@ -397,6 +399,8 @@ iframe {
   .product-teasers .product-info span.price {
     font-size: 16px;
     font-weight: 700; }
+  .product-teasers .product-info p:last-child {
+    margin-bottom: 0; }
 .product-teasers .rslides {
   order: 1; }
 

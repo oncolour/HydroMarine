@@ -1,13 +1,13 @@
 <?php 
-    $your_meta_title = "Startpage";
-$your_meta_description = "Vi säljer båtar";
+    $your_meta_title = "Hydro Marine – Hydrolift båtförmedling";
+$your_meta_description = "Förmedling av Hydrolift och begagnade båtar i Stockholm. Själ er båt med oss.";
 require 'includes/page_header.php'; ?>
 
 <section class="front-page-hero start">
 
     <img src="/images/symbols_and_logos/hydrolift_shield_1000px.png" alt="">
     <br>
-    <h1>Sveriges enda återförsäljare av <span class="strong">Hydrolift</span></h1>
+    <h1><span class="strong">Fly without wings</span></h1>
     <br>
     <a href="hydrolift/" class="btn btn-ghost">Läs mer</a>
 
@@ -17,7 +17,7 @@ require 'includes/page_header.php'; ?>
 
     <div class="large fadeIn">
         <a class="las-mer" href="hydrolift/x-series">
-            <img  src="/images/hydrolift-x-22-2018-7.png" alt="x-22 Hydrolift x-22 2018 models available now">
+            <img  src="/images/hydrolift-x-22-2018-7.jpg" alt="x-22 Hydrolift x-22 2018 models available now">
         </a>
     </div>
 
@@ -28,7 +28,7 @@ require 'includes/page_header.php'; ?>
             <h3>Möt oss på Allt För Sjön</h3>
             <span></span>
         </header>
-        <p>Den 3-11 Mars befinner vi oss på ÄlvsjöMässan för att prata om Hydrolift.
+        <p>Sverige premiär för Hydrolift X–22 under Allt för sjön båtmässan 3-11 mars, ni hittar oss i monter AG:45, varmt välkomna.
             <br>
             <br><a class="btn btn-ghost" href="http://www.alltforsjon.se">Läs mer</a>
         </p>
@@ -42,7 +42,7 @@ require 'includes/page_header.php'; ?>
             <h3>X-22 – Hydrolifts flört med vanligt båtfolk</h3>
             <span></span>
         </header>
-        <p>Hamnen.se har skrivit ett par rader om Hydrolift X-22.
+        <p>Hamnen.se har skrivit ett par rader om Hydrolift X–22.
             <br>
             <br><a class="btn btn-ghost" href="https://www.hamnen.se/artiklar/motorbatar/x-22-hydrolifts-nya-flort-med-den-breda-massan.html">Läs hela artikeln här</a>
         </p>
@@ -67,9 +67,11 @@ require 'includes/page_header.php'; ?>
             </p>
         </section>
     </article>
-    <div class="container1400">
-        <img src="/images/Hydrolift-C-28-IMG_6988-02.jpg" alt="båt, hamn, hydrolift, verkstad">
-    </div>
+    <!--
+<div class="container1400">
+    <img src="/images/Hydrolift-C-28-IMG_6988-02.jpg" alt="båt, hamn, hydrolift, verkstad">
+</div>
+-->
 </section>
 
 

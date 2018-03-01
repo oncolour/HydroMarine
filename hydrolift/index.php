@@ -1,16 +1,16 @@
 <?php 
-    $your_meta_title = "Startpage";
-$your_meta_description = "Vi säljer båtar";
+    $your_meta_title = "Hydrolift båtar – Hydro Marine";
+$your_meta_description = "Välj bland våra tre series – X–Series, Signature och Professional";
 require '../includes/page_header.php'; ?>
 
 <section class="front-page-hero hydro-p txt half">
     <img src="/images/hydrolift_logo_light_logotype_fixed_header.png" width="250px" alt="">
-    <p>Designed and built in Norway, our boat range gives our customers a lifetime of exceptional performance and efficiency. We are committed to continuous product improvement and evolution, delivering only the highest quality boats and unmatchable design to the premium segment. In short, we are satisfied with nothing less than the best – design, function and performance.
+    <p>"Designed and built in Norway, our boat range gives our customers a lifetime of exceptional performance and efficiency. We are committed to continuous product improvement and evolution, delivering only the highest quality boats and unmatchable design to the premium segment. In short, we are satisfied with nothing less than the best – design, function and performance." – Hydrolift
 
     </p>
 
     <p>
-        <a href="https://www.facebook.com/HydroliftSverige">Följ oss på Facebook!</a>
+        <a target="_blank" href="https://www.facebook.com/HydroliftSverige">Följ oss på Facebook!</a>
     </p>
 
 </section>
