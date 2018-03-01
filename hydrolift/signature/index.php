@@ -142,9 +142,9 @@ require '../../includes/page_header.php'; ?>
         </header>
         <div class="rslides-container odd">
             <ul class="rslides">
-                <li><img src="/images/c-32Sun/hydrolift_signature_boats_c-32_sun_1023x681_01.jpg" alt=""></li>
-                <li><img src="/images/c-32Sun/hydrolift_signature_boats_c-32_sun_1023x681_02.jpg" alt=""></li>
-                <li><img src="/images/c-32Sun/hydrolift_signature_boats_c-32_sun_1023x681_05.jpg" alt=""></li>
+                <li><img src="/images/c-32sun/hydrolift_signature_boats_c-32_sun_1023x681_01.jpg" alt=""></li>
+                <li><img src="/images/c-32sun/hydrolift_signature_boats_c-32_sun_1023x681_02.jpg" alt=""></li>
+                <li><img src="/images/c-32sun/hydrolift_signature_boats_c-32_sun_1023x681_05.jpg" alt=""></li>
             </ul>
         </div>
     </article>
