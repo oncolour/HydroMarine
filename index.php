@@ -7,7 +7,7 @@ require 'includes/page_header.php'; ?>
 
     <img src="/images/symbols_and_logos/hydrolift_shield_1000px.png" alt="">
     <br>
-    <h1><span class="strong">Fly without wings</span></h1>
+    
     <br>
     <a href="hydrolift/" class="btn btn-ghost">Läs mer</a>
 

@@ -103,7 +103,8 @@ module.exports = function (grunt) {
     });
 
     /** Load NPM Tasks **/
-    grunt.loadNpmTasks('grunt-contrib-sass');
+//    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
