@@ -2,6 +2,20 @@
 <html class="no-js" lang="en" itemscope itemtype="http://schema.org/LocalBusiness" prefix="og: http://ogp.me/ns#">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114991697-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114991697-1');
+
+    </script>
+    <!-- End Google analytics -->
     <title>
         <?php echo $your_meta_title ?> - Hydro Marine</title>
 
