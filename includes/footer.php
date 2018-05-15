@@ -16,7 +16,7 @@
             <li><a href="/om-oss">Om oss</a></li>
             <!--<li><a href="/kontakt/index.php">Kontakt</a></li>-->
         </ul>
-        <a class="footer-logo" href="/"><img  src="/images/logo_neg.svg" alt="Hydro Marine Logotype"></a>
+        <a class="footer-logo" href="/"><img  src="<?php bloginfo('stylesheet_directory'); ?>/images/logo_neg.svg" alt="Hydro Marine Logotype"></a>
         <address itemscope itemtype="http://schema.org/LocalBusiness">
     <span itemprop="name" class="strong">Hydro Marine AB</span><br>
     <span itemprop="address">Biskopsvägen 7, 115 21 stockholm</span><br>

@@ -1,12 +1,16 @@
 <?php 
+
+/*
+Template Name: Front Page HydroWP
+*/
+
+get_header();
     $your_meta_title = "X–Series Hydrolift – Hydro Marine";
 $your_meta_description = "";
-require '../../includes/page_header.php'; ?>
+?>
 
 <section class="front-page-hero hydro-p xseries half">
-    <!--<img src="/images/hydrolift_x_series_logo_.png" width="250" alt="">
 
-    <p>Afforadble high performance quality boats with outboard engines </p>-->
 
 </section>
 
@@ -84,4 +88,4 @@ require '../../includes/page_header.php'; ?>
 </section>
 
 
-<?php require '../../includes/page_footer.php' ?>
+<?php get_footer(); ?>

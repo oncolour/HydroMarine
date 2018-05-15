@@ -22,9 +22,9 @@
     <meta name="application-name" content="Hydro Marine" />
 
     <link rel="preload" href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href="/css/hydromarine.min.css">
-
+<!-- This is my header yolo -->
+   
+    <?php wp_head(); ?>
 </head>
 
 <body id="body">
@@ -33,17 +33,17 @@
         <a href="#main-menu" role="button" id="main-menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Open main menu">
 
     <span class="sr-only">Open main menu</span>
-    <span aria-hidden="true"><img src="/images/ic_menu_48px.svg"></span>
+    <span aria-hidden="true"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/ic_menu_48px.svg"></span>
   </a>
 
-        <a href="/" class="logotype"><img src="/images/logotype_hydro_marine.png" alt="Logotype"></a>
+        <a href="/" class="logotype"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logotype_hydro_marine.png" alt="Logotype"></a>
 
         <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
 
             <a href="#main-menu-toggle" role="button" id="main-menu-close" class="menu-close" aria-expanded="false" aria-controls="main-menu" aria-label="Close main menu">
 
       <span class="sr-only">Close main menu</span>
-      <span class="" aria-hidden="true"><img src="/images/ic_close_48px.svg" alt="Logotype"></span>
+      <span class="" aria-hidden="true"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/ic_close_48px.svg" alt="Logotype"></span>
     </a>
             <ul class="menu-list">
                 <li><a href="/hydrolift">Hydrolift</a></li>
