@@ -269,7 +269,7 @@ iframe {
         position: relative;
         z-index: 99999;
     }
-    .menu-list li a {
+    .menu li a {
         color: #fff;
         text-transform: uppercase;
         font-weight: 700;
@@ -282,7 +282,7 @@ iframe {
 /** Front page hero **/
 
 .front-page-hero {
-    background-image: url(/images/C-31/Hydrolift_C-31_startpage.jpg);
+    background-image: url(../images/C-31/Hydrolift_C-31_startpage.jpg);
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -335,35 +335,6 @@ iframe {
         text-decoration: underline;
     }
 }
-
-.xseries img {
-    width: 185px;
-    margin-top: -80px;
-    margin-bottom: 0px;
-}
-
-.xseries {
-    background-image: url(/images/HydroliftX-22-2018-09X-series.jpg);
-}
-
-.signature {
-    background-color: #0c1422;
-    background-image: url(/images/sighead2.jpg);
-    img {
-        width: 350px;
-        margin-bottom: 0px;
-    }
-}
-
-.pro {
-    background-color: #0c1422;
-    background-image: url(/images/ProfHead3.jpg);
-    img {
-        width: 350px;
-        margin-bottom: 0px;
-    }
-}
-
 
 .hydro-p p,
 .signature p,
@@ -625,7 +596,7 @@ span {
         padding: 0 25px;
         position: sticky;
         top: 0px;
-        .menu-list li {
+        .menu li {
             display: inline-block;
             margin-right: 20px;
             &:last-child {
@@ -651,6 +622,10 @@ span {
         }
         &.half {
             height: calc(70vh - 88px);
+            img {
+                width: 350px;
+                margin-bottom: 0px;
+            }
         }
     }
 
@@ -847,12 +822,15 @@ span {
             order: 2;
             flex-basis: 60%;
             background-color: #f6f6f6;
-            &.odd {
+        }
+
+        &:nth-child(even) {
+            .rslides-container {
                 order: 1;
             }
-        }
-        .product-info.odd {
-            order: 2;
+            .product-info {
+                order: 2;
+            }
         }
     }
     .product-info h3 {

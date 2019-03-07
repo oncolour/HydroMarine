@@ -1,5 +1,8 @@
 <?php
 
+@ini_set( 'upload_max_size' , '64M' );
+@ini_set( 'post_max_size', '64M');
+@ini_set( 'max_execution_time', '300' );
 
 // Stylesheets and JavaScripts
 function hydro_scripts() {
@@ -21,6 +24,12 @@ function hydro_scripts() {
 	
 }
 add_action('wp_enqueue_scripts', 'hydro_scripts');
+
+// Main menu
+function register_my_menu() {
+  register_nav_menu('main-menu',__( 'Main Menu' ));
+}
+add_action( 'init', 'register_my_menu' );
 
 
 

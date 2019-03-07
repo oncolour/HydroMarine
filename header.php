@@ -36,8 +36,8 @@
     <meta name="application-name" content="Hydro Marine" />
 
     <link rel="preload" href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic' rel='stylesheet' type='text/css'>
-<!-- This is my header yolo -->
-   
+    <!-- This is my header yolo -->
+
     <?php wp_head(); ?>
 </head>
 
@@ -59,10 +59,7 @@
       <span class="sr-only">Close main menu</span>
       <span class="" aria-hidden="true"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/ic_close_48px.svg" alt="Logotype"></span>
     </a>
-            <ul class="menu-list">
-                <li><a href="/hydrolift">Hydrolift</a></li>
-                <li><a href="/om-oss">Om oss</a></li>
-            </ul>
+            <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
         </nav>
         <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
     </header>

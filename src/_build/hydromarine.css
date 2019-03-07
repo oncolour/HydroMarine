@@ -232,16 +232,16 @@ iframe {
     margin-top: 8px;
     position: relative;
     z-index: 99999; }
-  .header-bar .menu-list li a {
+  .header-bar .menu li a {
     color: #fff;
     text-transform: uppercase;
     font-weight: 700; }
-    .header-bar .menu-list li a:hover {
+    .header-bar .menu li a:hover {
       border-bottom: 3px solid #e9464d; }
 
 /** Front page hero **/
 .front-page-hero {
-  background-image: url(/images/C-31/Hydrolift_C-31_startpage.jpg);
+  background-image: url(../images/C-31/Hydrolift_C-31_startpage.jpg);
   background-size: cover;
   background-position: center center;
   text-align: center;
@@ -286,28 +286,6 @@ iframe {
   .hydro-p a {
     color: #fff;
     text-decoration: underline; }
-
-.xseries img {
-  width: 185px;
-  margin-top: -80px;
-  margin-bottom: 0px; }
-
-.xseries {
-  background-image: url(/images/HydroliftX-22-2018-09X-series.jpg); }
-
-.signature {
-  background-color: #0c1422;
-  background-image: url(/images/sighead2.jpg); }
-  .signature img {
-    width: 350px;
-    margin-bottom: 0px; }
-
-.pro {
-  background-color: #0c1422;
-  background-image: url(/images/ProfHead3.jpg); }
-  .pro img {
-    width: 350px;
-    margin-bottom: 0px; }
 
 .hydro-p p,
 .signature p,
@@ -513,12 +491,12 @@ span.mail {
     padding: 0 25px;
     position: sticky;
     top: 0px; }
-    .header-bar .menu-list li {
+    .header-bar .menu li {
       display: inline-block;
       margin-right: 20px; }
-      .header-bar .menu-list li:last-child {
+      .header-bar .menu li:last-child {
         margin-right: 0px; }
-      .header-bar .menu-list li a {
+      .header-bar .menu li a {
         font-size: 14px;
         padding: 5px 0 7px 0; }
   /** Front page hero **/
@@ -533,6 +511,9 @@ span.mail {
       width: 80%; }
     .front-page-hero.half {
       height: calc(70vh - 88px); }
+      .front-page-hero.half img {
+        width: 350px;
+        margin-bottom: 0px; }
   .xseries img {
     width: 350px; }
   .hydro-p p,
@@ -660,9 +641,9 @@ span.mail {
       order: 2;
       flex-basis: 60%;
       background-color: #f6f6f6; }
-      .product-teasers .rslides-container.odd {
-        order: 1; }
-    .product-teasers .product-info.odd {
+    .product-teasers:nth-child(even) .rslides-container {
+      order: 1; }
+    .product-teasers:nth-child(even) .product-info {
       order: 2; }
   .product-info h3 {
     font-size: 36px; }
